@@ -1,0 +1,40 @@
+{
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "name": "PWA POC",
+  "short_name": "PWA POC",
+  "description": "A Progressive Web App built with Next.js",
+  "start_url": "/",
+  "scope": "/",
+  "id": "/",
+
+  "icons": [
+    {
+      "src": "/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/mobile-screenshot.png",
+      "type": "image/png",
+      "sizes": "320x640",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshots/desktop-screenshot.png",
+      "type": "image/png",
+      "sizes": "1280x720",
+      "form_factor": "wide"
+    }
+  ]
+}
