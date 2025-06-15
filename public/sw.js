@@ -1,8 +1,6 @@
 const CACHE_NAME = 'pwa-cache-v1';
 const urlsToCache = [
   '/',
-  '/offline',
-  '/static/css/main.css',
   '/manifest.json',
 ];
 
